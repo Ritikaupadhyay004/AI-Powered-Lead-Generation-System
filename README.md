@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Lead Management & Security Infrastructure
+#  AI-Powered Lead Management & Security Infrastructure
 
 <p align="center">
   <img src="https://img.shields.io/badge/Salesforce-Developer%20Edition-0176D3?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce">
@@ -8,7 +8,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project was developed as part of the **Salesforce Certified Administrator with AI Agentforce Specialization Virtual Internship** using a *Salesforce Developer Edition* environment.
 
@@ -16,7 +16,7 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - [x] Configure Salesforce Developer Edition optimized for Lead pipelines.
 - [x] Deeply customize fields and schemas on the **Standard Lead Object**.
@@ -28,26 +28,26 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
 
 ---
 
-## 🛠️ Implemented Features
+##  Implemented Features
 
-### 👤 User & Security Management
+###  User & Security Management
 * **Profile Layer:** Built custom **Lead Manager** (Full CRUD) and **Sales Agent** (Restricted Deletion) profiles.
 * **Access Control:** Deployed advanced Object-Level Permissions & granular Field-Level Security.
 * **Data Privacy:** Programmed explicit Role Hierarchies and targeted Permission Sets to ensure zero data leakage.
 
-### 💼 Lead Operations Customization
+###  Lead Operations Customization
 * Expanded the standard schema with custom tracking fields (`AI_Summary__c`).
 * Redesigned clutter-free Lead Page Layouts to accelerate agent workflows.
 * Tailored customized Lightning Experience records for optimal viewing.
 
-### 🤖 Generative AI Infrastructure
+###  Generative AI Infrastructure
 * Enabled baseline **Salesforce Einstein** capabilities.
 * Programmed an active Field Generation Prompt Template inside Salesforce Prompt Builder.
 * Orchestrated a 1-click execution engine via Lightning App Builder to generate, update, and lock AI summaries natively.
 
 ---
 
-## 🔒 Security Configuration Matrix
+##  Security Configuration Matrix
 
 ### Profile Access Clearances
 
@@ -65,10 +65,10 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
                  └── [Sales Agent]
 ```
 <blockquote>
-  <p><strong>💡 Security Note:</strong> This precise structure establishes top-down transparency, securing private records from peer-to-peer data exposure while facilitating rolled-up visibility for executives.</p>
+  <p><strong> Security Note:</strong> This precise structure establishes top-down transparency, securing private records from peer-to-peer data exposure while facilitating rolled-up visibility for executives.</p>
 </blockquote>
 
-<h2>🤖 Einstein Generative AI Integration</h2>
+<h2> Einstein Generative AI Integration</h2>
 <p>By incorporating Salesforce Prompt Builder, this infrastructure eliminates administrative bottlenecks for sales teams:</p>
 <ul>
   <li><strong>The Prompt Blueprint:</strong> Instructs Einstein to synthesize historical contact notes, company details, and engagement fields.</li>
@@ -76,7 +76,7 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
   <li><strong>The Result:</strong> Sales agents get instant context at a glance without reading through hundreds of historical activity timelines.</li>
 </ul>
 
-<h2>📸 Project Implementation Proofs</h2>
+<h2> Project Implementation Proofs</h2>
 <p>All verification files can be found under the <code>/Screenshots</code> directory.</p>
 <ul>
   <li><strong>Salesforce Core Environment:</strong> Home Page Setup | App Launcher Configuration</li>
@@ -86,21 +86,21 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
   <li><strong>AI Engine:</strong> Prompt Builder Workbench Workspace | Active AI Summary Fields</li>
 </ul>
 
-<h2>📈 Executive Business Value</h2>
+<h2> Executive Business Value</h2>
 <ul>
   <li><strong>Robust Data Governance:</strong> Restricts access to sensitive prospect records using verified Profiles and Roles.</li>
   <li><strong>AI-Driven Velocity:</strong> Reclaims agent prospecting hours by shifting manual lead synthesis to generative AI.</li>
   <li><strong>Frictionless UI:</strong> Boosts daily active adoption through customized, highly-relevant Lightning interfaces.</li>
 </ul>
 
-<h2>🛠️ Tools &amp; Technologies</h2>
+<h2> Tools &amp; Technologies</h2>
 <ul>
   <li><strong>Platform:</strong> Salesforce Developer Edition (Lightning Experience)</li>
   <li><strong>Automation &amp; Intelligence:</strong> Salesforce Prompt Builder, Einstein AI, Lightning App Builder</li>
   <li><strong>Documentation &amp; Storage:</strong> GitHub, Microsoft Word</li>
 </ul>
 
-<h2>📂 Repository Tree Structure</h2>
+<h2> Repository Tree Structure</h2>
 <pre><code>
 AI-Powered-Lead-Management-System
 ├── README.md                # Project Presentation
@@ -115,11 +115,18 @@ AI-Powered-Lead-Management-System
 └── Demo_Video_Link.txt      # Walkthrough Links
 </code></pre>
 
-<h2>👩‍💻 Author</h2>
+<h2> Author</h2>
 <p>
-  <strong>Ritika Upadhyay</strong><br>
-  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
+  <strong>Team Leader:</strong><br>
+  Ritika Upadhyay
 </p>
+<p>
+  <strong> Team Members:</strong></p>
+  <ul> 
+  <li> Aradhana Pandey</li>
+    <li> Sakshi Mishra</li>
+    <li> Harshit Pandey</li>
+  </ul>
 
 
 
@@ -162,6 +169,4 @@ AI-Powered-Lead-Management-System
 
 
 
-Prompt Engineering: Configured Salesforce Agentforce Prompt Builder.  
-Cognitive Field Integration: Created a dedicated AI Summary field mapped directly to prompt template outputs.  
-On-Demand Summary: Enabled automated generation of lead summary profiles.
+
