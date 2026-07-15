@@ -1,88 +1,124 @@
-# AI-Powered-Lead-Generation-System
-Project Overview
-The AI-Powered Lead Generation System is a Salesforce Administration project developed during the Salesforce Certified Administrator with AI Agentforce Specialization Virtual Internship.  
-The project demonstrates how Salesforce can be customized to build a secure, intelligent, and efficient Lead Management solution using declarative tools such as custom fields, validation rules, Flow automation, Profiles, Roles, Permission Sets, Lightning App Builder, and Salesforce Agentforce Prompt Builder.  
-Project Objectives
-Customize the standard Lead object.  
-Create custom fields and page layouts.  
-Configure Profiles, Users, Roles, and Permission Sets.  
-Implement role-based security.  
-Create Validation Rules.  
-Automate business processes using Flow.  
-Configure Salesforce Agentforce Prompt Builder.  
-Generate AI-powered Lead Summaries.  
-Test and validate the complete solution.  
-Features Implemented
-Salesforce Administration
-Environment Setup: Salesforce Developer Edition and Lightning Experience configuration.  
-Object Customization: Added custom fields and tailored page layouts.  
-Data Quality: Implemented validation rules to enforce database hygiene.  
-Automation: Configured process flows for background business logic.  
-Security Configuration
-Access Control: Created custom profiles, users, and permission sets.  
-Organizational Structure: Established a custom role hierarchy.  
-Access Restraints: Applied Role-Based Access Control (RBAC) to secure core record actions.  
-AI Integration
-Prompt Engineering: Configured Salesforce Agentforce Prompt Builder.  
-Cognitive Field Integration: Created a dedicated AI Summary field mapped directly to prompt template outputs.  
-On-Demand Summary: Enabled automated generation of lead summary profiles.
-AI-Powered-Lead-Generation-System
-│
-├── README.md
-├── Documentation.pdf
-├── Screenshots
-    ├── 01_Home_Page.png
-    ├── 02_App_Launcher.png
-    ├── 03_Profiles_List.png
-    ├── 04_Lead_Manager_Profile.png
-    ├── 05_Sales_Agent_Profile.png
-    ├── 06_Users_List.png
-    ├── 07_Lead_Manager_User.png
-    ├── 08_Sales_Agent_User.png
-    ├── 09_Role_Hierarchy.png
-    ├── 10_Lead_Manager_Role.png
-    ├── 11_Sales_Agent_Role.png
-    ├── 12_Object_Manager.png
-    ├── 13_Lead_Object.png
-    ├── 14_Lead_Fields.png
-    ├── 15_Lead_Page_Layout.png
-    ├── 16_Lead_Record.png
-    ├── 17_Prompt_Builder.png
-    ├── 18_AI_Lead_Summary.png
-    ├── 19_Permission_Set.png
-    └── 20_Project_Completed.png
-    Project Implementation
-The repository includes detailed screenshots documenting each step of the implementation process:
-Salesforce Environment Setup & App Launcher  
-Custom Profiles, User Management, and Role Hierarchy  
-Lead Object Custom Fields & Page Layout Customization  
-Validation Rules and Flow Automation  
-Lead Record Testing, Agentforce Prompt Builder Setup, and AI Summaries
-Testing & Validation
-The complete solution was validated using sample Lead records to verify the target functionality:
-Custom field data storage and picklist values  
-Domain restrictions in validation rules  
-Profile-based permissions and role-based security  
-Flow-triggered execution and Agentforce summary grounding  
-Testing confirmed that all configured components function successfully as designed.
-Technologies Used
-Salesforce Developer Edition  
-Salesforce Lightning Experience  
-Salesforce Flow  
-Salesforce Agentforce Prompt Builder  
-Lightning App Builder  
-Permission Sets  
-GitHub  
-Microsoft Word
-Team & Authors
-Team Leader
-Ritika Upadhyay
-Team Members
-Aradhana Pandey
-Sakshi Mishra
-Harshit Pandey
+# 🚀 AI-Powered Lead Management & Security Infrastructure
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Salesforce-Developer%20Edition-0176D3?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce">
+  <img src="https://img.shields.io/badge/Einstein%20AI-Agentforce-00A1E0?style=for-the-badge" alt="Einstein AI">
+  <img src="https://img.shields.io/badge/Security-Role%20Based-2E7D32?style=for-the-badge" alt="Security">
+</p>
 
+---
+
+## 📋 Project Overview
+
+This project was developed as part of the **Salesforce Certified Administrator with AI Agentforce Specialization Virtual Internship** using a *Salesforce Developer Edition* environment.
+
+The objective was to architect a highly secure, automated, and AI-powered Lead Management System. This was achieved by heavily customizing the standard Salesforce Lead object, enforcing stringent role-based data visibility sharing rules, and using **Salesforce Prompt Builder** to dynamically inject Einstein AI-generated context summaries straight into the agent UI.
+
+---
+
+## 🎯 Project Objectives
+
+- [x] Configure Salesforce Developer Edition optimized for Lead pipelines.
+- [x] Deeply customize fields and schemas on the **Standard Lead Object**.
+- [x] Establish secure operational Profiles, Users, and Roles.
+- [x] Enforce rigid **Role-Based Security** configurations.
+- [x] Integrate **Prompt Builder** for generative AI Lead Summary generation.
+- [x] Design user-centric Lightning Record Pages.
+- [x] Practice enterprise-level Salesforce Administration best practices.
+
+---
+
+## 🛠️ Implemented Features
+
+### 👤 User & Security Management
+* **Profile Layer:** Built custom **Lead Manager** (Full CRUD) and **Sales Agent** (Restricted Deletion) profiles.
+* **Access Control:** Deployed advanced Object-Level Permissions & granular Field-Level Security.
+* **Data Privacy:** Programmed explicit Role Hierarchies and targeted Permission Sets to ensure zero data leakage.
+
+### 💼 Lead Operations Customization
+* Expanded the standard schema with custom tracking fields (`AI_Summary__c`).
+* Redesigned clutter-free Lead Page Layouts to accelerate agent workflows.
+* Tailored customized Lightning Experience records for optimal viewing.
+
+### 🤖 Generative AI Infrastructure
+* Enabled baseline **Salesforce Einstein** capabilities.
+* Programmed an active Field Generation Prompt Template inside Salesforce Prompt Builder.
+* Orchestrated a 1-click execution engine via Lightning App Builder to generate, update, and lock AI summaries natively.
+
+---
+
+## 🔒 Security Configuration Matrix
+
+### Profile Access Clearances
+
+| Profile | Object Permissions (Lead, Task, Event, Contact) | Operational Intent |
+| :--- | :--- | :--- |
+| **Lead Manager** | `Read` | `Create` | `Edit` | `Delete` | Oversees pipeline, monitors audits, handles exceptions. |
+| **Sales Agent** | `Read` | `Create` | `Edit` (No Delete) | Daily prospecting, lead conversion, event scheduling. |
+
+### Role Hierarchy Architecture
+```text
+  [VP of Sales]
+        │
+        └── [Lead Manager]
+                 │
+                 └── [Sales Agent]
+<blockquote>
+  <p><strong>💡 Security Note:</strong> This precise structure establishes top-down transparency, securing private records from peer-to-peer data exposure while facilitating rolled-up visibility for executives.</p>
+</blockquote>
+
+<h2>🤖 Einstein Generative AI Integration</h2>
+<p>By incorporating Salesforce Prompt Builder, this infrastructure eliminates administrative bottlenecks for sales teams:</p>
+<ul>
+  <li><strong>The Prompt Blueprint:</strong> Instructs Einstein to synthesize historical contact notes, company details, and engagement fields.</li>
+  <li><strong>UI Delivery:</strong> Integrated natively onto the Lightning Record page as a smart actionable utility.</li>
+  <li><strong>The Result:</strong> Sales agents get instant context at a glance without reading through hundreds of historical activity timelines.</li>
+</ul>
+
+<h2>📸 Project Implementation Proofs</h2>
+<p>All verification files can be found under the <code>/Screenshots</code> directory.</p>
+<ul>
+  <li><strong>Salesforce Core Environment:</strong> Home Page Setup | App Launcher Configuration</li>
+  <li><strong>Identity Management:</strong> Profiles List | Users Configuration Details</li>
+  <li><strong>Visibility Matrix:</strong> Active Role Hierarchy Map | Permission Set Allocations</li>
+  <li><strong>Schema Customization:</strong> Object Manager Properties | Lead Fields &amp; Layout Previews</li>
+  <li><strong>AI Engine:</strong> Prompt Builder Workbench Workspace | Active AI Summary Fields</li>
+</ul>
+
+<h2>📈 Executive Business Value</h2>
+<ul>
+  <li><strong>Robust Data Governance:</strong> Restricts access to sensitive prospect records using verified Profiles and Roles.</li>
+  <li><strong>AI-Driven Velocity:</strong> Reclaims agent prospecting hours by shifting manual lead synthesis to generative AI.</li>
+  <li><strong>Frictionless UI:</strong> Boosts daily active adoption through customized, highly-relevant Lightning interfaces.</li>
+</ul>
+
+<h2>🛠️ Tools &amp; Technologies</h2>
+<ul>
+  <li><strong>Platform:</strong> Salesforce Developer Edition (Lightning Experience)</li>
+  <li><strong>Automation &amp; Intelligence:</strong> Salesforce Prompt Builder, Einstein AI, Lightning App Builder</li>
+  <li><strong>Documentation &amp; Storage:</strong> GitHub, Microsoft Word</li>
+</ul>
+
+<h2>📂 Repository Tree Structure</h2>
+<pre><code>
+AI-Powered-Lead-Management-System
+├── README.md                # Project Presentation
+├── Documentation.pdf        # Complete Technical Runbook
+├── Screenshots/             # Verification Images
+│   ├── Home_Page/
+│   ├── Profiles_&amp;_Users/
+│   ├── Roles/
+│   ├── Lead_Object_Config/
+│   ├── Prompt_Builder/
+│   └── Final_System_View/
+└── Demo_Video_Link.txt      # Walkthrough Links
+</code></pre>
+
+<h2>👩‍💻 Author</h2>
+<p>
+  <strong>Ritika Upadhyay</strong><br>
+  Salesforce Certified Administrator with AI Agentforce Specialization – Virtual Internship Project Submission
+</p>
 
 
 
