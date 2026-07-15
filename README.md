@@ -63,6 +63,7 @@ The objective was to architect a highly secure, automated, and AI-powered Lead M
         └── [Lead Manager]
                  │
                  └── [Sales Agent]
+```
 <blockquote>
   <p><strong>💡 Security Note:</strong> This precise structure establishes top-down transparency, securing private records from peer-to-peer data exposure while facilitating rolled-up visibility for executives.</p>
 </blockquote>
